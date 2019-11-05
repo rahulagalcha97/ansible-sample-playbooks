@@ -1,6 +1,8 @@
 ---
 - name: install apache server on centos 7
   hosts: all
+  become: yes
+  become_user: root
   tasks: 
   - name: httpd package install
     yum:
