@@ -1,7 +1,6 @@
 ---
 - name: install apache server on centos 7
   hosts: webserver
-  become: yes
   remote_user: root
   tasks: 
   - name: httpd package install
