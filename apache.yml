@@ -1,0 +1,8 @@
+---
+- name: install apache server on centos 7
+  hosts: all
+  tasks: 
+  - name: httpd package install
+    yum:
+     name: http
+     state: present
