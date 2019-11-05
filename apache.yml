@@ -1,6 +1,6 @@
 ---
 - name: install apache server on centos 7
-  hosts: webserver
+  hosts: web
   become: yes
   remote_user: semaphore
   become_method: sudo
