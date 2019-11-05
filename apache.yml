@@ -8,5 +8,5 @@
   - name: create dir
     file:
      dest: /home/semaphore/rajas
-     state: present
+     state: directory
      mode: 0644
