@@ -7,6 +7,6 @@
   tasks: 
   - name: create dir
     file:
-     dest: /home/semaphore/rajas
+     dest: /home/semaphore/mayur
      state: directory
      mode: 0644
