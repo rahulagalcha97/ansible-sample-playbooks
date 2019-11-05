@@ -5,7 +5,8 @@
   remote_user: semaphore
   become_method: sudo
   tasks: 
-  - name: httpd package install
-    yum:
-     name: httpd
-     state: latest
+  - name: create dir
+    file:
+     dest: /home/semaphore/rajas
+     state: present
+     mode: 0644
